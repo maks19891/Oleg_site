@@ -77,8 +77,28 @@
 
 
 <!--footer-->
+<script>
+$(document).ready(function() {
+  function checkWidth() {
+    var windowWidth = $('body').innerWidth(),
+        elem = $(".footer"); // лучше сохранять объект в переменную, многократно чтобы не насиловать страницу для поиска нужного элемента
+    if(windowWidth < 992){
+      elem.addClass('fixed-bottom');
+    }
+    else{
+      elem.addClass('footer');
+    }
+  }
 
-<footer>
+  checkWidth(); // проверит при загрузке страницы
+
+  $(window).resize(function(){
+    checkWidth(); // проверит при изменении размера окна клиента
+  });
+});
+</script>
+
+<footer class="footer">
   <div class="container">
     <div class="row py-4 d-flex align-items-center">
       <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
