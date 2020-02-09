@@ -3,6 +3,7 @@
 }
 */
 body{
+    background-color: #f8f8f8;
     min-height: 100vh;
     position: relative;
     margin: 0;
@@ -11,18 +12,14 @@ body{
     color: blue;
 }
 .navbar{
-    background-color: #f8f9fa;
+    background-color: #fff;
 }
 .button{
    color: red;
 }
 a.navbar-brand:hover{
     color: #27ccc0;
-}
-.nav-item>nav-link:hover{
-    color: red;
-}
-  
+}  
 a.nav-link:hover {
     color:#27ccc0;
 }
@@ -31,7 +28,7 @@ a.dropdown-item:hover{
 }
 
 footer{
-    background-color: #f8f9fa;
+    background-color: #fff;
 }  
 .link>a {
     color: #676767;
@@ -45,8 +42,8 @@ footer .link {
 }
 
 .contactMain{
-    background-color: #f8f8f8;
     padding-top: 56px;
+    margin-top: 30px;
 }
 
 .contactMain img {
@@ -60,3 +57,18 @@ footer .link {
     letter-spacing: 0;
     line-height: 1.5;
 }
+
+.contactSocial{
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.contactSocial a{
+    text-decoration: none;
+    color: #27ccc0;
+    font-weight: bold;
+}
+
+.contactSocial a:hover{
+    color: #27ccc0; 
+}
+
