@@ -1,0 +1,41 @@
+/*.dropdown:hover> .dropdown-menu{
+    display: block;
+}
+*/
+
+.navbar .navbar-collapse li a {
+    color: blue;
+}
+.navbar{
+    background-color: #f8f9fa;
+}
+.button{
+   color: red;
+}
+a.navbar-brand:hover{
+    color: #27ccc0;
+}
+.nav-item>nav-link:hover{
+    color: red;
+}
+  
+a.nav-link:hover {
+    color:#27ccc0;
+}
+a.dropdown-item:hover{
+    color:#27ccc0;
+}
+
+footer{
+    background-color: #f8f9fa;
+}  
+.link>a {
+    color: #676767;
+}
+footer .link {
+    font-size: 14px;
+}
+.link>a:hover {
+    color: #27ccc0;
+    text-decoration: none;
+}
