@@ -2,7 +2,11 @@
     display: block;
 }
 */
-
+body{
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+}
 .navbar .navbar-collapse li a {
     color: blue;
 }
@@ -38,4 +42,21 @@ footer .link {
 .link>a:hover {
     color: #27ccc0;
     text-decoration: none;
+}
+
+.contactMain{
+    background-color: #f8f8f8;
+    padding-top: 56px;
+}
+
+.contactMain img {
+    width: 567px;
+    height: auto;
+}
+
+.contactMainText p {
+    color: #676767;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 1.5;
 }
